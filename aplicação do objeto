@@ -1,0 +1,11 @@
+class Main {
+    public static void main(String[] args) {
+        Carro meriva = new Carro();
+        meriva.modelo = "Meriva";
+        int teste = meriva.aumentarVelocidade( 100 );
+        System.out.println("Velocidade: " + meriva.aumentarVelocidade(100));
+
+
+
+    }
+}
